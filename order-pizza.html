@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/custom.scss">
     <link rel="stylesheet" href="https://kit.fontawesome.com/a470e83216.css" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Pizza World</title>
@@ -52,10 +53,10 @@
     <!--    MENU CARD WITH NAVIGATION   -->
     <h2 class="text-start p-1 pt-5">Build your own pizza!</h2>
     <div class="card text-center p-0">
-        <div class="card-header p-0 d-flex">
-            <ul class="nav nav-tabs card-header-tabs ms-0 mb-0" id="myTab" role="tablist">
+        <div class="card-header bg-transparent border-bottom-0 p-0 d-flex">
+            <ul class="nav nav-tabs card-header-tabs border-bottom-0 ms-0 mb-0" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link d-flex align-items-center justify-content-center active" id="size-and-crust-tab" data-bs-toggle="tab" data-bs-target="#size-and-crust-tab-pane" type="button" role="tab" aria-controls="size-and-crust" aria-selected="true"><i class="fa-solid fa-circle-1" style="color: #b7b7b7; margin: 5px;"></i>Size and Crust</button>
+                    <button class="nav-link d-flex align-items-center justify-content-center active"  id="size-and-crust-tab" data-bs-toggle="tab" data-bs-target="#size-and-crust-tab-pane" type="button" role="tab" aria-controls="size-and-crust" aria-selected="true"><i class="fa-solid fa-circle-1" style="color: #b7b7b7; margin: 5px;"></i>Size and Crust</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link d-flex align-items-center justify-content-center" id="cheese-and-sauce-tab" data-bs-toggle="tab" data-bs-target="#cheese-and-sauce-tab-pane" type="button" role="tab" aria-controls="cheese-and-sauce" aria-selected="false"><i class="fa-solid fa-circle-2" style="color: #b7b7b7; margin: 5px;"></i>Cheese and Sauce</button>
@@ -69,9 +70,9 @@
         <!--    SIZE AND CRUST PANE   -->
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="size-and-crust-tab-pane" role="tabpanel" aria-labelledby="size-and-crust-tab" tabindex="0">
-                <div class="card-body rounded-top p-0">
-                    <div class="container p-0 rounded-top">
-                        <h5 class="card-title text-start bg-primary text-white p-2 rounded-top">Choose Size and Crust</h5>
+                <div class="card-body border border-top-0 rounded-top p-0">
+                    <div class="container p-0">
+                        <h5 class="card-title text-start bg-primary text-white p-2" style="margin-top: 2px; margin-right: -2px; margin-bottom: 3px; margin-left: -2px;">Choose Size and Crust</h5>
                         <div class="container justify-content-between">
                             <div class="card m-2 mt-3">
                                 <div class="card-header text-start">
@@ -118,9 +119,9 @@
             </div>
             <!--    CHEESE AND SAUCE PANE   -->
             <div class="tab-pane fade" id="cheese-and-sauce-tab-pane" role="tabpanel" aria-labelledby="cheese-and-sauce-tab" tabindex="0">
-                <div class="card-body rounded-top p-0">
+                <div class="card-body rounded-top border border-top-0 p-0">
                     <div class="container p-0 rounded-top">
-                        <h5 class="card-title text-start bg-primary text-white p-2 rounded-top">Choose Cheese and Sauce</h5>
+                        <h5 class="card-title text-start bg-primary text-white p-2" style="margin-top: 2px; margin-right: -2px; margin-bottom: 3px; margin-left: -2px;">Choose Cheese and Sauce</h5>
                         <div class="container justify-content-between">
                             <div class="card m-2 mt-3">
                                 <div class="card-header text-start">
@@ -205,9 +206,9 @@
             </div>
             <!--    TOPPINGS PANE   -->
             <div class="tab-pane fade" id="toppings-tab-pane" role="tabpanel" aria-labelledby="toppings-tab" tabindex="0">
-                <div class="card-body rounded-top p-0">
+                <div class="card-body border border-top-0 rounded-top p-0">
                     <div class="container p-0 rounded-top">
-                        <h5 class="card-title text-start bg-primary text-white p-2 rounded-top">Choose Toppings</h5>
+                        <h5 class="card-title text-start bg-primary text-white p-2" style="margin-top: 2px; margin-right: -2px; margin-bottom: 3px; margin-left: -2px;">Choose Toppings</h5>
                         <div class="container justify-content-between">
                             <div class="card m-2 mt-3">
                                 <div class="card-header text-start">
