@@ -1,9 +1,6 @@
-console.log("custom script loaded");
-
 // BUTTONS //
 const previousBtn = document.querySelector("#previousBtn");
 const nextBtn = document.querySelector("#nextBtn");
-
 // TABS //
 const sizeAndCrustTab = document.querySelector("#size-and-crust-tab");
 const cheeseAndSauceTab = document.querySelector("#cheese-and-sauce-tab");
